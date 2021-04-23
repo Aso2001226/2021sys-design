@@ -8,7 +8,7 @@ if(weather=0) then (yes)
  :曇りです;
  elseif(weather=2) then (yes)
  :雨です;
- else (yes)
+ else (no)
  :不明です;
  end
  @enduml
