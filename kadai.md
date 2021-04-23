@@ -2,13 +2,13 @@ uml
 @startuml
 start
 :weather=天気情報;
-if(weather) then (0)
+if(weather=0) then (yes)
   :快晴です;
- elseif then (1)
+ elseif(weather=1) then (yes)
  :曇りです;
- elseif then (2)
+ elseif then (weather=2) then (yes)
  :雨です;
- elseif (その他)
+ else (yes)
  :不明です;
  end
  @enduml
