@@ -1,4 +1,4 @@
-uml
+```uml
 @startuml
 start
 :weather=天気情報;
@@ -12,3 +12,4 @@ if(weather==0) then (yes)
  :不明です;
  end
  @enduml
+ ```
