@@ -1,3 +1,4 @@
+```
 @startuml
 start
 :体力=0;
@@ -8,3 +9,4 @@ else(false)
 endif
 end
 @enduml
+```
